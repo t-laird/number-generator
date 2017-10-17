@@ -2,4 +2,24 @@ div {
   overflow-wrap: break-word;
   margin-top: 80px;
   font-size: 25px;
+  background-color: lightblue;
+  min-height: 400px;
+  min-width: 100%;
+}
+
+body{ 
+  text-align: center;
+}
+
+label{
+  font-size: 30px;
+}
+
+input{
+  height: 30px;
+  font-size: 30px;
+}
+
+input[type='submit'] {
+  width: 40%;
 }
