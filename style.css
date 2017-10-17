@@ -20,6 +20,8 @@ input{
   font-size: 30px;
 }
 
-input[type='submit'] {
+input#submit {
   width: 40%;
+  height: 200px;
+  min-height: 50px;
 }

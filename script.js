@@ -17,7 +17,7 @@ function createArray (e) {
     var random = Math.floor(Math.random()*(upperLimValue-lowerLimValue) + lowerLimValue);
     resultArray.push(random);
   }
-  arrayContainer.innerHTML += ('[' + resultArray + ']');
+  arrayContainer.innerHTML = ('[' + resultArray + ']');
   
 }
 
