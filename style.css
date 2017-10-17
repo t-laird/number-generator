@@ -7,9 +7,6 @@
   min-width: 100%;
 }
 
-body{ 
-  text-align: center;
-}
 
 label{
   font-size: 30px;
@@ -35,4 +32,8 @@ form div{
 
 form div:last-child {
   justify-content: flex-end;
+}
+
+h1{
+  text-align: center;
 }
