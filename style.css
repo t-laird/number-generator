@@ -1,4 +1,4 @@
-div {
+#array-holder {
   overflow-wrap: break-word;
   margin-top: 80px;
   font-size: 25px;
@@ -16,10 +16,23 @@ label{
 }
 
 input{
+  padding-left: 10px;
   height: 30px;
   font-size: 30px;
 }
 
-input[type='submit'] {
-  width: 40%;
+input#submit {
+  background-color: lightblue;
+  height: 50px;
+}
+
+form div{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 10px auto;
+}
+
+form div:last-child {
+  justify-content: flex-end;
 }
